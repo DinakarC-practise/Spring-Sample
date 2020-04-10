@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e7d3f2b-d25b-4c6b-bdc9-2fc47a6b41be" name="Default Changelist" comment="" />
+    <list default="true" id="4e7d3f2b-d25b-4c6b-bdc9-2fc47a6b41be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +20,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZKMrT67DhoiY7mUHnmoFVMbgAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -75,7 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1584583530544</updated>
     </task>
+    <task id="LOCAL-00001" summary="create gitignore">
+      <created>1585940179882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585940179883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="create gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="104" width="811" height="669" key="#Project_Structure" timestamp="1584583738613">
@@ -86,10 +116,15 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="533" y="130" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1584584260760" />
-    <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584583956090">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="594" y="363" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584990934788">
+      <screen x="42" y="23" width="1398" height="877" />
     </state>
     <state x="569" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.832@0.23.1440.832" timestamp="1584583956090" />
+    <state x="594" y="363" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/42.23.1398.877@42.23.1398.877" timestamp="1584990934788" />
+    <state x="321" y="137" key="CommitChangelistDialog2" timestamp="1585940179699">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state x="321" y="137" key="CommitChangelistDialog2/42.23.1638.1027@42.23.1638.1027" timestamp="1585940179699" />
     <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1584648001236">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -106,6 +141,10 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1584648001236" />
+    <state x="353" y="274" key="Vcs.Push.Dialog.v2" timestamp="1585940184490">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state x="353" y="274" key="Vcs.Push.Dialog.v2/42.23.1638.1027@42.23.1638.1027" timestamp="1585940184490" />
     <state x="97" y="136" key="new project wizard" timestamp="1584647997679">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
