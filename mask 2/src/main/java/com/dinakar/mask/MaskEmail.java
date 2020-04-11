@@ -1,3 +1,4 @@
+package com.dinakar.mask;
 
 import java.util.Scanner;
 
@@ -17,35 +18,43 @@ public class MaskEmail {
 
     }
 
-    private static String maskString(String strText, int strStart, int strEnd, char maskChar)
+    private static String maskEmail(String email)
             throws Exception {
 
-        if (strText == null || strText.equals(""))
-            return "";
-
-        if (strStart < 0)
-            strStart = 0;
-
-        if (strEnd > strText.length())
-            strEnd = strText.length();
-
-        if (strStart > strEnd)
-            throw new Exception("strEnd index cannot be greater than strStart index");
-
-        int maskLength = strEnd - strStart;
-
-        if (maskLength == 0)
-            return strText;
-
-        StringBuilder sbMaskString = new StringBuilder(maskLength);
-
-        for (int i = 0; i < maskLength; i++) {
-            sbMaskString.append(maskChar);
+        char[] ch = email.toCharArray();
+        for (int i = 0; i < email.length(); i++) {
+            System.out.println(char[i]);
         }
-
-        return strText.substring(0, strStart)
-                + sbMaskString.toString()
-                + strText.substring(strStart + maskLength);
     }
-
 }
+
+//
+//        if (strText == null || strText.equals(""))
+//            return "";
+//
+//        if (strStart < 0)
+//            strStart = 0;
+//
+//        if (strEnd > strText.length())
+//            strEnd = strText.length();
+//
+//        if (strStart > strEnd)
+//            throw new Exception("strEnd index cannot be greater than strStart index");
+//
+//        int maskLength = strEnd - strStart;
+//
+//        if (maskLength == 0)
+//            return strText;
+//
+//        StringBuilder sbMaskString = new StringBuilder(maskLength);
+//
+//        for (int i = 0; i < maskLength; i++) {
+//            sbMaskString.append(maskChar);
+//        }
+//
+//        return strText.substring(0, strStart)
+//                + sbMaskString.toString()
+//                + strText.substring(strStart + maskLength);
+//    }
+
+//}
